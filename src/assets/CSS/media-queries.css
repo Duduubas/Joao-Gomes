@@ -31,10 +31,6 @@
         padding: 1rem 0;
     }
     
-    .hamburger-menu {
-        display: flex;
-        z-index: 100; /* Garante que o hamburger fica acima de outros elementos */
-    }
     
     /* Animação do menu hamburguer quando ativo */
     .hamburger-menu.active span:nth-child(1) {
@@ -61,6 +57,17 @@
     
     .hamburger-menu span {
         background-color: white;
+    }
+}
+
+/* No arquivo media-queries.css */
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+    
+    .navbar__buttons-wrapper {
+        display: none;
     }
 }
 

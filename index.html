@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>João Gomes - Portifólio</title>
     <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+    <meta name="description" content="João Gomes - Portifólio">
+    <meta name="theme-color" content="#3498DB">
 
 
     <!-- ARQUIVOS DE CONFIGURAÇÃO DO WEBSITE-->
      <link rel="stylesheet" href="src/assets/CSS/reset.css">
      <link rel="stylesheet" href="src/assets/CSS/vars.css">
-     <link rel="stylesheet" href="src/assets/CSS/media-queries.css">
 
     <!-- ARQUIVOS DE ESTILIZAÇÃO DO WEBSITE -->
+    <link rel="stylesheet" href="src/assets/CSS/media-queries.css">
     <link rel="stylesheet" href="src/assets/Animations/animações.css">
     <link rel="stylesheet" href="src/assets/CSS/header.css">
     <link rel="stylesheet" href="src/assets/CSS/footer.css">
     <link rel="stylesheet" href="src/assets/CSS/main.css">
+
+
+
+
+    <!-- ARQUIVO MEDIA-QUERIES -->
+    <link rel="stylesheet" href="src/assets/CSS/media-queries.css"> <!-- DEVE SER PASSADO POR ÚLTIMO SEMPRE -->
 </head>
 <body>
 
@@ -38,19 +46,19 @@
                     <!-- Wrapper para os botões -->
                     <div class="navbar__buttons-wrapper">
                         <div class="navbar__content-buttons">
-                            <button type="button" onclick="window.location.href=''">
+                            <button type="button" onclick="window.location.href='#sobre'">
                                 <span>Quem sou eu?</span>
                             </button>
                         </div>
 
                         <div class="navbar__content-buttons">
-                            <button type="button" onclick="window.location.href=''">
+                            <button type="button" onclick="window.location.href='#formacoes'">
                                 <span>Minhas formações</span>
                             </button>
                         </div>
 
                         <div class="navbar__content-buttons">
-                            <button type="button" onclick="window.location.href=''">
+                            <button type="button" onclick="window.location.href='#contato'">
                                 <span>Contato</span>
                             </button>
                         </div>
@@ -64,19 +72,19 @@
     <!-- MAIN (PRINCIPAL) DO SITE -->
     <main class="main">
 
-        <section class="apresentacao-section">
+        <section class="apresentacao-section" id="sobre">
             <div class="apresentacao-section__content">
                 <div class="apresentacao-section__content-texts">
                     <h1>Olá, seja bem-vindo!</h1>
                     <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Aliquam dolor penatibus curae senectus vel eleifend morbi lectus. Natoque sollicitudin torquent gravida rhoncus urna, porttitor diam. Accumsan venenatis massa porttitor aenean velit. Rhoncus eu augue quam ullamcorper curae penatibus efficitur iaculis. Auctor dapibus vehicula mus tristique viverra eros scelerisque nisl. Integer lorem nascetur porttitor, pretium aenean rutrum ante. Condimentum nisl nascetur mus feugiat lectus varius.</p>
                 </div>
                 <div class="profile-image-container">
-                    <img src="src/img/image.pn" alt="#">
+                    <img src="src/img/image.png" alt="#">
                 </div>
             </div>
         </section>
 
-        <section class="formacoes-section">
+        <section class="formacoes-section" id="formacoes">
             <div class="formacoes__content">
                 <div class="cards__content-inicio">
                     <h1>Minhas formações</h1>
@@ -116,7 +124,7 @@
 
     <!-- FOOTER SECTION -->
 
-    <footer>
+    <footer id="contato">
         <div class="footer__content">
             <div class="footer__content-options">
 
