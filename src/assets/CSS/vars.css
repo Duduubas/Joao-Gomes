@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+    
+
+
+    --bg-icon: #131313;
+    --bg-arrow-color: #242424;
+    --font-padrao: "Share Tech Mono", serif;
+
+    /* CORES DO WEBSITE */
+    --primary-color: #2C3E50;    /* Azul escuro */
+    --secondary-color: #3498DB;  /* Azul mais claro */
+    --accent-color: #E74C3C;     /* Vermelho para destaques */
+    --bg-color: #ECF0F1;         /* Cinza bem claro para fundo */
+    --text-color: #2C3E50;       /* Cor principal para textos */
+    --card-bg: #FFFFFF;          /* Branco para cards */
+    --hover-color: #2980B9;      /* Azul para hovers */
+}
